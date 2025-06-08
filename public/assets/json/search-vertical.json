@@ -1,0 +1,118 @@
+{
+  "pages": [
+    {
+      "url": "app/ecommerce/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "app-ecommerce-dashboard"
+    },
+    {
+      "url": "servidores",
+      "name": "Servidores",
+      "icon": "menu-icon tf-icons ti ti-server",
+      "slug": "servidores"
+    },
+    {
+      "url": "planos",
+      "name": "Ver Planos",
+      "icon": "menu-icon tf-icons ti ti-package",
+      "slug": "planos"
+    },
+    {
+      "url": "templates",
+      "name": "Templates",
+      "icon": "menu-icon tf-icons ti ti-layout",
+      "slug": "templates"
+    },
+    {
+      "url": "planos-renovacao",
+      "name": "Planos Admin",
+      "icon": "menu-icon tf-icons ti ti-receipt",
+      "slug": "planos-renovacao",
+      "adminOnly": true
+    },
+    {
+      "url": "revenda",
+      "name": "Planos Creditos",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "revenda",
+      "adminOnly": true
+    },
+    {
+      "url": "revendedores/create",
+      "name": "Creditos",
+      "icon": "menu-icon tf-icons ti ti-quote",
+      "slug": "revendedores-create",
+      "adminOnly": true,
+      "masterOnly": true
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "app-user",
+      "adminOnly": true,
+      "submenu": [
+        {
+          "url": "app/user/list",
+          "name": "List",
+          "slug": "app-user-list"
+        }
+      ]
+    },
+    {
+      "name": "Order",
+      "icon": "menu-icon tf-icons ti ti-credit-card",
+      "slug": "app-ecommerce-order",
+      "submenu": [
+        {
+          "url": "ordens",
+          "name": "Order List",
+          "slug": "app-ecommerce-order-list"
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "slug": "app-ecommerce-customer",
+      "submenu": [
+        {
+          "url": "app/ecommerce/customer/all",
+          "name": "All Customers",
+          "slug": "app-ecommerce-customer-all"
+        }
+      ]
+    },
+    {
+      "url": "app/ecommerce/manage/reviews",
+      "name": "Manage Reviews",
+      "icon": "menu-icon tf-icons ti ti-star",
+      "slug": "app-ecommerce-manage-reviews"
+    },
+    {
+      "url": "app/ecommerce/referrals",
+      "name": "Indicações",
+      "icon": "menu-icon tf-icons ti ti-share",
+      "slug": "app-ecommerce-referrals"
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-ecommerce-settings",
+      "submenu": [
+        {
+          "url": "configuracoes",
+          "name": "Store details",
+          "slug": "app-ecommerce-settings-details"
+        }
+      ]
+    },
+    {
+      "url": "admin/sessions",
+      "name": "Session de Usuários",
+      "icon": "menu-icon tf-icons ti ti-id-badge",
+      "slug": "admin-sessions",
+      "adminOnly": true
+    }
+  ]
+}

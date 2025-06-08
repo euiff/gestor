@@ -1,0 +1,215 @@
+{
+  "menu": [
+    {
+      "url": "app/ecommerce/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "app-ecommerce-dashboard",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "app-user",
+      "adminOnly": true,
+      "submenu": [
+        {
+          "url": "app/user/list",
+          "name": "List",
+          "slug": "app-user-list",
+          "clientOnly": false,
+          "adminOnly": true,
+          "masterOnly": true,
+          "revededorOnly": true
+        }
+      ]
+    },
+    {
+      "name": "Clientes",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "slug": "app-ecommerce-customer",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true,
+      "submenu": [
+        {
+          "url": "app/ecommerce/customer/all",
+          "name": "All Customers",
+          "slug": "app-ecommerce-customer-all",
+          "clientOnly": false,
+          "adminOnly": true,
+          "masterOnly": true,
+          "revededorOnly": true
+        }
+      ]
+    },
+    {
+      "url": "revendedores/create",
+      "name": "Revendedores",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "revendedores-create",
+      "adminOnly": true,
+      "masterOnly": true
+    },
+    {
+      "name": "Cobranças",
+      "icon": "menu-icon tf-icons ti ti-credit-card",
+      "slug": "app-ecommerce-order",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true,
+      "submenu": [
+        {
+          "url": "ordens",
+          "name": "Registros de Cobranças",
+          "slug": "app-ecommerce-order-list",
+          "clientOnly": false,
+          "adminOnly": true,
+          "masterOnly": true,
+          "revededorOnly": true
+        }
+      ]
+    },
+    {
+      "url": "app/whatsapp",
+      "name": "Whatsapp",
+      "icon": "menu-icon ti ti-brand-whatsapp fs-4",
+      "slug": "servidores",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true
+    },
+    {
+      "url": "campanhas",
+      "name": "Campanhas",
+      "icon": "menu-icon menu-icon ti ti-ad-2",
+      "slug": "campanhas",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true,
+      "badge": {
+        "text": "Novo",
+        "classes": "badge bg-label-primary rounded-pill ms-auto"
+      }
+    },
+    {
+      "url": "servidores",
+      "name": "Servidores",
+      "icon": "menu-icon tf-icons ti ti-server",
+      "slug": "servidores",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true
+    },
+    {
+      "url": "manage-templates",
+      "name": "Notificações",
+      "icon": "menu-icon tf-icons ti ti-bell",
+      "slug": "notificacoes",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true
+    },
+    {
+      "url": "planos",
+      "name": "Planos",
+      "icon": "menu-icon tf-icons ti ti-package",
+      "slug": "planos",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true
+    },
+        {
+      "url": "planos-renovacao",
+      "name": "Planos (Admin)",
+      "icon": "menu-icon tf-icons ti ti-package",
+      "slug": "planos-renovacao",
+      "adminOnly": true
+    },
+    {
+      "url": "templates",
+      "name": "Templates",
+      "icon": "menu-icon tf-icons ti ti-layout",
+      "slug": "templates",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true
+    },
+    {
+      "url": "revenda",
+      "name": "Pacote de Creditos",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "revenda",
+      "adminOnly": true
+    },
+    {
+      "url": "app/ecommerce/referrals",
+      "name": "Referrals",
+      "icon": "menu-icon tf-icons ti ti-share",
+      "slug": "app-ecommerce-referrals",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-ecommerce-settings",
+      "clientOnly": false,
+      "adminOnly": true,
+      "masterOnly": true,
+      "revededorOnly": true,
+      "submenu": [
+        {
+          "url": "configuracoes",
+          "name": "Store details",
+          "slug": "app-ecommerce-settings-details",
+          "clientOnly": false,
+          "adminOnly": true,
+          "masterOnly": true,
+          "revededorOnly": true
+        }
+      ]
+    },
+    {
+      "url": "admin/sessions",
+      "name": "Session de Usuários",
+      "icon": "menu-icon tf-icons ti ti-id-badge",
+      "slug": "admin-sessions",
+      "adminOnly": true
+    },
+    {
+      "url": "client/dashboard",
+      "name": "Dashboard",
+      "slug": "app-cliente-dashboard",
+      "clientOnly": true,
+      "icon": "menu-icon tf-icons ti ti-dashboard"
+    },
+    {
+      "url": "cliente/comprovantes",
+      "name": "Historico de Compras",
+      "slug": "app-cliente-comprovantes",
+      "clientOnly": true,
+      "icon": "menu-icon tf-icons ti ti-receipt"
+    },
+    {
+      "url": "cliente/planos",
+      "name": "Meus Planos",
+      "slug": "app-cliente-meusplanos",
+      "clientOnly": true,
+      "icon": "menu-icon tf-icons ti ti-id-badge"
+    }
+  ]
+}
